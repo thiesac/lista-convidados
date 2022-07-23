@@ -1,0 +1,56 @@
+* {
+    font-family: sans-serif;
+    text-align: center;
+}
+html, body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+}
+.bg-container {
+    background-image: linear-gradient(45deg, red 38%, #3D0000);
+    width: 100%;
+    height: 100%;
+    border: 0.1px solid black;
+    box-sizing: border-box;
+}
+h1 {
+    color: white;
+    font-weight: 150;
+}
+input {
+    background-color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    color: black;
+}
+::placeholder {
+    color: black;
+}
+button {
+    background-color: white;
+    border: none;
+    border-radius: 2px;
+    padding: 8px;
+}
+button:hover {
+    cursor: pointer;
+    background-color: rgba(250, 250, 250, 0.949);
+}
+h2 {
+    color: white;
+    font-weight: 150;
+    padding-top: 20px;
+}
+#cadastrados {
+    border: 1px solid white;
+    background-color: rgba(255, 255, 255, 0.121);
+    color: white;
+    margin: 0px 500px 5px 500px;
+}
+ul {
+    list-style-type: none;
+    font-size: 20px;
+    font-weight: 100;
+}
